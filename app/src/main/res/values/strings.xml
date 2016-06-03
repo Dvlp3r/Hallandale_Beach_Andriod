@@ -17,7 +17,7 @@
     <string name="public_records_description">Text sentence here</string>
     <string name="public_comments_description">Text sentence here</string>
     <string name="visitor_tracker_description">This app allows visitors to report their visits with City Officials</string>
-    <string name="calendar_description">Find out what's happeing in Hallandale Beach</string>
+    <string name="calendar_description">Find out what\'s happeing in Hallandale Beach</string>
     <string name="about_us_description">Learn more about Hallandale Beach</string>
 
 </resources>
