@@ -58,7 +58,9 @@
             android:background="#FFFFFF"
             android:stretchColumns="1">
             <TableRow
-                android:onClick="loadPublicRecords">
+                android:onClick="loadPublicRecords"
+                android:layout_weight = "1"
+                android:layout_height="0dp">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -95,7 +97,9 @@
                 </LinearLayout>
             </TableRow>
             <TableRow
-                android:onClick="loadPublicComments">
+                android:onClick="loadPublicComments"
+                android:layout_weight = "1"
+                android:layout_height="0dp">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -132,7 +136,9 @@
                 </LinearLayout>
             </TableRow>
             <TableRow
-                android:onClick="loadVisitorTracker">
+                android:onClick="loadVisitorTracker"
+                android:layout_weight = "1"
+                android:layout_height="0dp">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -169,7 +175,9 @@
                 </LinearLayout>
             </TableRow>
             <TableRow
-                android:onClick="loadCalendar">
+                android:onClick="loadCalendar"
+                android:layout_weight = "1"
+                android:layout_height="0dp">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -206,7 +214,9 @@
                 </LinearLayout>
             </TableRow>
             <TableRow
-                android:onClick="loadAboutUs">
+                android:onClick="loadAboutUs"
+                android:layout_weight = "1"
+                android:layout_height="0dp">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
