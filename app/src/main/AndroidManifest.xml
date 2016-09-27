@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="2.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hallandalebeach.hallandalebeach">
     <uses-permission android:name="android.permission.INTERNET" />
@@ -7,6 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:debuggable="false"
         android:theme="@android:style/Theme.Holo.NoActionBar">
         <activity android:name=".MainActivity">
             <intent-filter>
